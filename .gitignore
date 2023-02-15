@@ -22,11 +22,3 @@ def measure_internet_speed():
 if __name__ == "__main__":
     print(check_dns_setup())
     print(measure_internet_speed())
-
-
-
-This code first checks if the DNS is set up correctly by attempting to resolve the domain name of www.google.com. If it fails, it means there is a DNS setup issue.
-
-Next, it uses the <a href="https://internetspeedcheck.org/">internet speed</a> test library to measure the Internet speed by downloading and uploading some data to a nearby server. The measured speeds are converted to megabits per second and returned as a string.
-
-The main block of the code simply calls these two functions and prints their output. You can run this code on any machine with Python installed and see if there are any DNS setup issues and what the current Internet speed is.
